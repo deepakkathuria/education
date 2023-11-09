@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import { useInView } from "framer-motion";
 import ProjectsSection from "../components/ProjectsSection";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 
@@ -18,6 +19,7 @@ const Page = () => {
         <Navbar/>
 
         <ProjectsSection />
+        <Footer/>
         </>
     );
 };

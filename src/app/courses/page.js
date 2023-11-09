@@ -3,8 +3,7 @@ import React, { useState, useRef } from "react";
 import { useInView } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Courses from "../components/Courses";
-
-
+import Footer from "../components/Footer";
 
 
 const Page = () => {
@@ -21,6 +20,7 @@ const Page = () => {
 
         <br></br>
         <Courses/>
+        <Footer/>
         </>
     );
 };

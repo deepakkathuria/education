@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import { useInView } from "framer-motion";
 import EmailSection from "../components/EmailSection";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 
@@ -17,6 +18,7 @@ const Page = () => {
         <>
         <Navbar/>
         <EmailSection />
+        <Footer/>
         </>
     );
 };
