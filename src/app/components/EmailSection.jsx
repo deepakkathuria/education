@@ -68,11 +68,13 @@ const EmailSection = () => {
           <br></br>
 
           Phone:
-          9717208423
+          67823784587254
+          {/* 9717208423 */}
           <br></br>
 
           Email:
-          divyakathuria47@gmail.com
+          test@gmail.com
+          {/* divyakathuria47@gmail.com */}
 
 
         </p>

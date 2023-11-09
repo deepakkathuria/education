@@ -1,8 +1,9 @@
 "use client";
 import React, { useState, useRef } from "react";
 import { useInView } from "framer-motion";
-import ProjectsSection from "../components/ProjectsSection";
 import Navbar from "../components/Navbar";
+import Courses from "../components/Courses";
+
 
 
 
@@ -16,8 +17,10 @@ const Page = () => {
     return (
         <>
         <Navbar/>
+        <br></br>
 
-        <ProjectsSection />
+        <br></br>
+        <Courses/>
         </>
     );
 };
