@@ -17,18 +17,16 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m{" "} Divya
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Mentor",
                 1000,
-                "Web Developer",
+                "Teacher",
                 1000,
-                "Mobile Developer",
-                1000,
-                "UI/UX Designer",
+                "Instructor",
                 1000,
               ]}
               wrapper="span"
@@ -37,10 +35,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+            TEACHER
           </p>
-          <div>
+          {/* <div>
             <Link
               href="/contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
@@ -55,7 +52,7 @@ const HeroSection = () => {
                 Download CV
               </span>
             </Link>
-          </div>
+          </div> */}
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
