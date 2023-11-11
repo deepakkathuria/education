@@ -80,7 +80,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section>
+    <section style={{marginLeft:"40px",marginRight:"40px"}}>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
       <b style={{color:"white"}}>TheFutureClasses  Images</b>   </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
