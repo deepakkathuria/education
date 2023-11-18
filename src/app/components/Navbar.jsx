@@ -42,11 +42,11 @@ const Navbar = () => {
           className="text-2xl md:text-5xl text-white font-semibold"
         >
            <Image
-              src="/images/Logo123.svg"
+              src="/images/logo1234.svg"
               alt="logo"
-              // className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={170}
-              height={100}
+              // className="w-86 h-36"
+              width={200}
+              height={400}
             />
         </Link>
         <div className="mobile-menu block md:hidden">
