@@ -25,21 +25,21 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Bachelor In Science(Bsc) From Delhi University</li>
+        <li>Bachelor Of Eductaion(BEd) From Kurukshetra University</li>
       </ul>
     ),
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
-      </ul>
-    ),
-  },
+  // {
+  //   title: "Certifications",
+  //   id: "certifications",
+  //   content: (
+  //     <ul className="list-disc pl-2">
+  //       <li>AWS Cloud Practitioner</li>
+  //       <li>Google Professional Cloud Developer</li>
+  //     </ul>
+  //   ),
+  // },
 ];
 
 const AboutSection = () => {
@@ -59,7 +59,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hello! I&apos;m Divya, an educator and owner of <b style={{color:"green"}}>TheFutureClasses</b> with a passion for [Your Subject]. My [X years] of teaching have been driven by a simple philosophy: engage, inspire, and empower. I hold a [degree] from [University] and specialize in [area of expertise]. In my classroom at <b style={{color:"green"}}>TheFutureClasses</b>, every lesson is an opportunity for students to build confidence and skills for the future. Off duty, I&apos;m [hobby or personal interest], which keeps me energized and creative. Looking forward to learning and growing together!
+          Hello! I&apos;m Divya, an educator and owner of <b style={{color:"green"}}>TheFutureClasses</b> with a passion for Mathematics,Science and English. My 7 Years of teaching have been driven by a simple philosophy: engage, inspire, and empower. I hold a Bachelor in Science(Bsc) and Bachelor Of Eductaion(BEd) from DU and KUK . In my classroom at <b style={{color:"green"}}>TheFutureClasses</b>, every lesson is an opportunity for students to build confidence and skills for the future. Off duty, I&apos;m personally guide students for personality development and fun loving activity, which keeps me energized and creative. Looking forward to learning and growing together!
 
           </p>
           <div className="flex flex-row justify-start mt-8">
@@ -77,13 +77,13 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            <TabButton
+            {/* <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
               Certifications{" "}
-            </TabButton>
+            </TabButton> */}
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}

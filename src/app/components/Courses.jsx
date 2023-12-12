@@ -9,9 +9,14 @@ const TAB_DATA = [
     id: "classes",
     content: (
       <ul className="list-disc pl-2">
-        <li>5th</li>
-        <li>6th</li>
-        <li>7th</li>
+        <li>5th (All Subject)</li>
+        <li>6th (All Subject)</li>
+        <li>7th (All Subject)</li>
+        <li>8th (All Subject)</li>
+        <li>9th (Math,Science,English)</li>
+        <li>10th (Math,Science,English)</li>
+
+
         
       </ul>
     ),

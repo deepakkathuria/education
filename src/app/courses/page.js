@@ -14,14 +14,15 @@ const Page = () => {
 
 
     return (
-        <>
+        <div style={{background:"black",marginTop:"50px"}}>
+
         <Navbar/>
         <br></br>
 
         <br></br>
         <Courses/>
         <Footer/>
-        </>
+        </div>
     );
 };
 

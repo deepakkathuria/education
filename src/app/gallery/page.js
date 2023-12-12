@@ -15,12 +15,13 @@ const Page = () => {
 
 
     return (
-        <>
+        <div style={{background:"black"}}>
+
         <Navbar/>
 
         <ProjectsSection />
         <Footer/>
-        </>
+        </div>
     );
 };
 

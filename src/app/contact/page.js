@@ -15,11 +15,11 @@ const Page = () => {
 
 
     return (
-        <>
+        <div style={{background:"black"}}>
         <Navbar/>
         <EmailSection />
         <Footer/>
-        </>
+        </div>
     );
 };
 

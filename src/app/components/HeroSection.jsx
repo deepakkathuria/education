@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            TEACHER
+          <b>"Building Foundations for Future Success"</b>
           </p>
           {/* <div>
             <Link
