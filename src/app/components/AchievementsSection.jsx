@@ -17,8 +17,8 @@ const achievementsList = [
   // },
   {
     prefix: "~",
-    metric: "Current Students",
-    value: "10",
+    metric: "Total Experience in teaching",
+    value: "7 +Years",
   },
   // {
   //   metric: "Awards",

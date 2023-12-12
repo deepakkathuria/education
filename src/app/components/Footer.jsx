@@ -1,18 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer className="footer border z-10 border-t-[rgb(51,53,63)] border-l-transparent border-r-transparent text-white">
-      <div className="container p-12 flex justify-between">
-      {/* <Image
-              src="/images/Logo123.svg"
-              alt="logo"
-              // className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={170}
-              height={100}
-            /> */}
-        <p className="text-slate-600">All rights reserved.</p>
+      <div className="container p-12 flex justify-between items-center">
+        {/* Left side: Instagram Icon */}
+        <div className="flex items-center">
+         
+          <p className="text-slate-600 ml-4">All rights reserved.</p>
+        </div>
+        
+        {/* Add any other elements you want on the right side here */}
+        {/* <div>Right side content</div> */}
       </div>
     </footer>
   );

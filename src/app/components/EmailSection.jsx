@@ -79,14 +79,25 @@ const EmailSection = () => {
 
 
         </p>
-        {/* <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
-            <Image src={GithubIcon} alt="Github Icon" />
+        <div className="socials flex flex-row gap-2">
+        <Link href="https://www.instagram.com/yourusername">
+            {/* <a target="_blank" rel="noopener noreferrer"> */}
+              <Image
+                src="https://res.cloudinary.com/dovcumkby/image/upload/v1702387782/icons8-instagram_iqqd71.gif"
+                alt="Instagram"
+                width={32}
+                height={32} // Adjusted height for consistency
+              />
+            {/* </a> */}
           </Link>
           <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image 
+             width={38}
+             height={38} // Adjusted height for consistency
+            src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
-        </div> */}
+        </div>
+          
       </div>
       <div>
         {emailSubmitted ? (

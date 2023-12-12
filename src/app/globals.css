@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.whatsapp{
+  border-radius: 50px;
+  height:2rem;
+
+}

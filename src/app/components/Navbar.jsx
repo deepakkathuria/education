@@ -49,6 +49,8 @@ const Navbar = () => {
               height={400}
             />
         </Link>
+       
+        
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
