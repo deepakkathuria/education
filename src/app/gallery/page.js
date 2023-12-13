@@ -15,7 +15,7 @@ const Page = () => {
 
 
     return (
-        <div style={{background:"black"}}>
+        <div style={{background:"black",height:"100vh"}}>
 
         <Navbar/>
 

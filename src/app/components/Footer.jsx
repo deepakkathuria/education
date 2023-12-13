@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="footer border z-10 border-t-[rgb(51,53,63)] border-l-transparent border-r-transparent text-white">
+    <footer className="footer borhder z-10 bordenr-t-[rgb(51,53,63)] bordehr-l-transparent bornder-r-transparent text-white">
       <div className="container p-12 flex justify-between items-center">
         {/* Left side: Instagram Icon */}
         <div className="flex items-center">
