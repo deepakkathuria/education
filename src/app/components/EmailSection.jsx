@@ -80,7 +80,7 @@ const EmailSection = () => {
 
         </p>
         <div className="socials flex flex-row gap-2">
-        <Link href="https://www.instagram.com/yourusername">
+        <Link href="https://www.instagram.com/futureclasses099/">
             {/* <a target="_blank" rel="noopener noreferrer"> */}
               <Image
                 src="https://res.cloudinary.com/dovcumkby/image/upload/v1702387782/icons8-instagram_iqqd71.gif"
@@ -90,12 +90,12 @@ const EmailSection = () => {
               />
             {/* </a> */}
           </Link>
-          <Link href="linkedin.com">
+          {/* <Link href="linkedin.com">
             <Image 
              width={38}
              height={38} // Adjusted height for consistency
             src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link>
+          </Link> */}
         </div>
           
       </div>

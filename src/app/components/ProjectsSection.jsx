@@ -27,6 +27,17 @@ const studentData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 3,
+    // title: "Potography Portfolio Website",
+    // description: "Project 2 description",
+    image: "https://res.cloudinary.com/dovcumkby/image/upload/v1702620950/WhatsApp_Image_2023-12-14_at_9.57.38_PM_dtf19d.jpg",
+    contentType: "images", // Add this line
+
+    tag: ["Images"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
   // {
   //   id: 3,
   //   // title: "E-commerce Application",
